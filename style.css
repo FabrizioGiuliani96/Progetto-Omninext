@@ -1,0 +1,486 @@
+/***SPAZIO*****/
+.custom-space {
+    height: 100px; /* Aggiungi l'altezza desiderata dello spazio */
+  }
+/***************/
+*{
+    font-family: 'Nunito';
+    font-style: normal;
+ }
+ p{
+    font-weight: 400;
+ }
+  /******INIZIO NAVBAR**********/
+  .nav-link {
+    font-family: 'Nunito', sans-serif;
+      color: #2B50B0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    padding: 0 10px;
+  }
+  .btn-navbar {
+    background-color: #ABE8DC;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #112340;
+  }
+  /*************FINE NAVBAR************/
+ 
+  /***********INIZIO SEZIONE2 IL WELFARE AZIENDALE A PORTATA DI PMI*********/
+  .sezione2-h1-titolo {
+      font-family:sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    color: #FFFFFF;
+    width: 689px;
+    height: 176px;
+  }
+  .sezione2-container{
+    background: url(img/ian-dooley-hpTH5b6mo2s-unsplash.jpg);
+  }
+  .sezione2-p-descrizione {
+      font-family:sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+  }
+  .sezione2-img-messaggio{
+    margin-right: 10px;
+  }
+  .sezione2-container-messaggio { 
+    background: #E6ECF9;
+    opacity: 0.9;
+    border: 1px solid #A1B5E8;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  .sezione2-p-messaggio{
+      font-family: sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #596FA6;
+  }
+ .sezione2-container-card-piano-go {
+    background-color: #E6ECF9;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;  
+  }
+  .sezione2-h2-card-piano-go {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #2B50B0;
+  }
+  .sezione2-p-card-a-partire-da {
+    font-size: 12px;
+    color: #426BD1;
+  }
+  .sezione2-€12 {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 82px;
+    color: #112340;
+    margin: 0;
+    display: inline-block;
+  }
+  .sezione2-50 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #112340;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    top: -30px;
+}
+  
+  .sezione2-iva {
+    font-family: 'Asap';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    position: relative;
+    top: -32px;
+    left: 32px;
+    color: #426BD1;
+  }
+  
+  .sezione2-p-anno-utente {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    color: #2B50B0;
+}
+  .sezione2-hr {
+    border: 2px solid #112340;
+  }
+  
+   ul.sezione2-list-unstyled {
+    text-align: left;
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  
+  ul.sezione2-list-unstyled li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    list-style: none;
+  }
+  
+   ul.sezione2-list-unstyled li:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url('img/spunta.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .sezione2-btn-card-piano-go {
+    height:50px;
+    width: 243px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    margin: auto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #112340;
+  }
+
+  .sezione2-info-piano{
+    font-size: 16px;
+    line-height: 22px;
+    color: #A7AEBE;
+  }
+
+/***** FINE SEZIONE2 IL WELFARE AZIENDALE A PORTATA DI PMI ******/
+
+/******** INIZIO SEZIONE3 OFFRIAMO ALLE PMI SUPPORTO NEI SEGUENTI AMBITI **********/
+.sezione3-titolo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #121127;
+  }
+  .sezione3-titolo-card {
+    font-weight: 700;
+    font-size: 18px;
+    color: #6D7791;
+  }
+  .sezione3-card-text{
+font-size: 18px;
+color: #6D7791;
+  }
+  
+  /********** FINE SEZIONE3 OFFRIAMO ALLE PMI SUPPORTO NEI SEGUENTI AMBITI **************/
+
+  /******* INIZIO SEZIONE4 CAROSELLO ***********/
+  .carousel-item {
+    border-radius: 36px;
+  }
+  .carousel-item:nth-child(1) {
+    background: #283B6C;
+  }
+  .carousel-item:nth-child(2) {
+    background: #716ACA;
+  }
+  .carousel-item:nth-child(3) {
+    background: #426BD1;
+  }
+  .carousel-item:nth-child(4) {
+    background: #299882;
+  }
+
+.d-block.w-100 {
+     height: 500px;
+}
+.carousel-title {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    width: 289px;
+    height: 176px;
+  }
+  
+  .carousel-text {
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 576px;
+    height: 238px;
+    }
+    .carousel-title, .carousel-text, .carousel-link{
+        padding: 30px;
+       
+      }
+      .carousel-link {
+        font-family:sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 0.025em;
+        text-transform: uppercase;
+        font-feature-settings: 'ss04' on;
+        color: #FFFFFF;
+        text-decoration: none; 
+      }
+      .carousel-link-icon {
+        margin-right: 5px;
+      }
+      /*******FINE SEZIONE4 CAROSELLO********/
+
+      /**********INIZIO SEZIONE5 APP********/
+      .sezione5-app-title {
+        color: #1A316B;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 88px;
+      }  
+      .sezione5-app-text {
+        font-size: 24px;
+        line-height: 33px;
+        color: #7D8797;
+      }
+      .sezione5-coming-soon {
+        font-family: 'DM Sans';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: 0.025em;
+        text-transform: uppercase;
+        font-feature-settings: 'ss04' on;
+        color: #0B1038;
+        text-decoration: none;
+      }
+      .sezione5-coming-soon-img {
+        margin-right: 10px; 
+      }
+      .sezione5-coming-soon,.sezione5-app-text,.sezione5-app-title{
+        padding: 30px;
+      } 
+/***********FINE SEZIONE5 APP**********/
+
+/**************INIZIO SEZIONE6 WALFARE AZIENDALE*********************/      
+    .sezione6-titolo-welfare-aziendale{
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 48px;
+        color: #121127;
+    } 
+      .sezione6-sottotitolo-welfare-aziendale {
+        color: #7D8797;
+        font-size: 20px;
+        line-height: 23px;
+      }
+      .sezione6-btn-scopri-piu {
+        background-color: #fff;
+        border: 2px solid #112340;
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: #112340;
+    } 
+    .sezione6-btn-scopri-piu:hover {
+        background-color: #112340;
+        color: #fff;
+        transition: all 0.2s ease-in-out;
+    }
+    /********FINE SEZIONE6 WELFARE AZIENDALE********/
+
+ /**************INIZIO SEZIONE7 BENESSERE COLLABORATORI**********/
+   .sfondo-sezione7_benessere-collaboratori{
+    background-image: url(img/Benessere_Back.svg);
+   }
+   .sezione7-benessere-collaboratori-h1 {
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 52px;
+    color: #F1F0FA;
+  }
+   .sezione7-benessere-collaboratori-h3{
+   font-weight: 800;
+   font-size: 22px;
+   line-height: 30px;;
+   color: #D2DCF4;
+   }
+   .sezione7-benessere-collaboratori-p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #E8E8E8;
+  }
+  .sezione7-benessere-collaboratori-p strong {
+    font-weight: bold;
+  }
+/**************FINE SEZIONE7 BENESSERE COLLABORATORI**********/
+
+  /********* INIZIO SEZIONE8 DUE PIANI TARIFFARI: PIANO GO! E PIANO PRO *********/
+.sezione8-title{
+font-weight: 700;
+font-size: 48px;
+line-height: 65px;
+color: #112340;
+}
+.sezione8-descrizione{
+font-size: 24px;
+line-height: 33px;
+color: #7D8797;
+}
+  /**********FINE SEZIONE8 DUE PIANI TARIFFARI: PIANO GO! E PIANO PRO *********/
+
+  /*********** INIZIO SEZIONE9 GRUPPO OMNINEXT *********/
+  .sezione9-container-grupp-omninext {
+    border: 1px solid #2B50B0;
+    border-radius: 36px;
+    padding: 50px;
+  }
+  .sezione9-ominext-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #2B50B0;
+  }
+  .sezione9-ominext-text{
+font-size: 18px;
+line-height: 25px;
+color: #7D8797;
+  }
+  .sezione9-ominext-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    font-feature-settings: 'ss04' on;
+    color: #2B50B0;
+    text-decoration: none;
+  }
+  /******FINE SEZIONE9 GRUPPO OMNINEXT*****/
+
+  /********INIZIO SEZIONE10 DOMANDE E RISPOSTE*********/
+   .sezione10-title-domande{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #2B50B0;
+   }
+  .sezione10-domande {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #05071A;
+  }
+  .sezione10-risposte{
+font-size: 18px;
+line-height: 25px;
+color: #7D8797;
+  }
+  .sezione10-container-domande{
+    background: #FFFFFF;
+  }
+  /**********FINE SEZIONE10 DOMANDE E RISPOSTE************/
+
+  /************* INIZIO SEZIONE11 NEWSLETTER**********/
+  .sezione11-sfondo-newsletter {
+    background-image: url("img/Newsletter_Back.svg");
+    height:300px;
+  }
+  .sezione11-title-newsletter{
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+color: #FFFFFF;
+  }
+  .sezione11-p-newsletter{
+font-size: 18px;
+line-height: 25px;
+color: #D2DCF4;
+  }
+  .sezione11-h5-newsletter{
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+color: #D2DCF4;
+  }
+  .sezione11-input-mail-newsletter{
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+color: #D2DCF4;
+  }
+  .sezione11-btn-newsletter{
+    background: #FFFFFF;
+border-radius: 10px;
+font-weight: 700;
+font-size: 14px;
+line-height: 25px;
+color: #112340;
+  }
+
+ /************* FINE SEZIONE11 NEWSLETTER**********/
+
+ /*********INIZIO FOOTER***********/ 
+.section-footer{
+    background: #121B30;
+}
+  .linea-divisoria-h5-footer {
+    border-right: 1px solid #5A5A5A;
+  }
+  .linea-divisoria-footer{
+    border: 1px solid #5A5A5A;
+  }
+  .p-footer{  
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: #E6ECF9;
+  }
+  .link-footer{
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #898989;
+  }
+  .link2-footer{
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+  }
+  .link-footer-piano-go{
+    color: #A1B5E8;
+  }
+  .link-footer-piano-pro{
+    color: #A9A5DF;
+  }
+  .link-footer-diventa-partner{
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+color: #A7AEBE;
+  }
+  .h4-footer{
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+  }
+  .logo-linkedin-footer {
+    padding-right: 5px;
+  }
+  /*****FINE FOOTER**********/
